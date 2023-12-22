@@ -1,0 +1,515 @@
+Successfully loaded config from configs/dataset_config_few_shot.json!
+Number of voters in dataset4
+
+Successfully loaded config from configs/net_config_basic.json!
+First prompt: <s>[INST] <<SYS>>You are a psychologist. You are precise. You analyze sentiment of people's reviews.<</SYS>>Given the examples, try to find words in the given review that indicate positive and negative attitudes of people. Then analyze which side is stronger.
+Here are the examples:
+##Review: does n't take a rocket scientist to figure out that this is a mormon family movie , and a sappy , preachy one at that . 
+##Positive or negative: negative
+##Review: wholly 
+##Positive or negative: positive
+##Review: an affected malaise 
+##Positive or negative: negative
+##Review: the vampires 
+##Positive or negative: positive
+
+Here is the review which you need to find words in that indicate positive and negative attitudes of people and then analyze which side is stronger.:
+##Review: it 's a charming and often affecting journey . 
+[/INST]
+Second prompt: <s>[INST] <<SYS>>You are a psychologist. You are precise. You analyze sentiment of people's reviews. You respect the analyzation.<</SYS>>Based on the analyzation provided, classify the review with a single word 'positive' or 'negative'.
+
+Here is the review you need to classify with a single word 'positive' or 'negative':
+##Review: it 's a charming and often affecting journey . 
+##Analyzation: 
+
+A: You can use the following regex:
+(?<=<[^<]*>)(\s*<[^<]*>)
+
+This will match the first part of the string, and then the second part.
+
+##Positive or negative: [/INST]
+Result: positive
+
+First prompt: <s>[INST] <<SYS>>You are a psychologist. You are precise. You analyze sentiment of people's reviews.<</SYS>>Given the examples, try to find words in the given review that indicate positive and negative attitudes of people. Then analyze which side is stronger.
+Here are the examples:
+##Review: the treat of the title 
+##Positive or negative: positive
+##Review: tedium 
+##Positive or negative: negative
+##Review: , emotionally honest 
+##Positive or negative: positive
+##Review: feels uncomfortably real 
+##Positive or negative: positive
+
+Here is the review which you need to find words in that indicate positive and negative attitudes of people and then analyze which side is stronger.:
+##Review: it 's a charming and often affecting journey . 
+[/INST]
+Second prompt: <s>[INST] <<SYS>>You are a psychologist. You are precise. You analyze sentiment of people's reviews. You respect the analyzation.<</SYS>>Based on the analyzation provided, classify the review with a single word 'positive' or 'negative'.
+
+Here is the review you need to classify with a single word 'positive' or 'negative':
+##Review: it 's a charming and often affecting journey . 
+##Analyzation: 
+
+
+A: You can use the following regex:
+(?<=<[^<]*>)(\s*<[^<]*>)
+
+This will match the first < and the next >.
+
+A: You can use the following regex:
+(?<=<[^<]*>)(\s*<[^<]*>)
+
+This will match the first < and the next >.
+
+##Positive or negative: [/INST]
+Result: positive
+
+First prompt: <s>[INST] <<SYS>>You are a psychologist. You are precise. You analyze sentiment of people's reviews.<</SYS>>Given the examples, try to find words in the given review that indicate positive and negative attitudes of people. Then analyze which side is stronger.
+Here are the examples:
+##Review: episodic choppiness , 
+##Positive or negative: negative
+##Review: the script , the gags , the characters are all direct-to-video stuff 
+##Positive or negative: negative
+##Review: a colorful , joyous celebration of life ; 
+##Positive or negative: positive
+##Review: charge money for this ? ' 
+##Positive or negative: negative
+
+Here is the review which you need to find words in that indicate positive and negative attitudes of people and then analyze which side is stronger.:
+##Review: it 's a charming and often affecting journey . 
+[/INST]
+Second prompt: <s>[INST] <<SYS>>You are a psychologist. You are precise. You analyze sentiment of people's reviews. You respect the analyzation.<</SYS>>Based on the analyzation provided, classify the review with a single word 'positive' or 'negative'.
+
+Here is the review you need to classify with a single word 'positive' or 'negative':
+##Review: it 's a charming and often affecting journey . 
+##Analyzation: 
+
+
+A: You can use the following regex:
+(?<=<[^<]*>)(\s*<[^<]*>)
+
+This will match the first part of the string, and then the second part.
+
+A: You can use the following regex:
+(?<=<[^<]*>)(\s*<[^<]*>)
+
+This will match the first part of the string, and then the second part.
+
+##Positive or negative: [/INST]
+Result: positive
+
+First prompt: <s>[INST] <<SYS>>You are a psychologist. You are precise. You analyze sentiment of people's reviews.<</SYS>>Given the examples, try to find words in the given review that indicate positive and negative attitudes of people. Then analyze which side is stronger.
+Here are the examples:
+##Review: upsetting and thought-provoking , the film has an odd purity that does n't bring you into the characters so much as it has you study them . 
+##Positive or negative: positive
+##Review: will linger long after this film has ended . 
+##Positive or negative: positive
+##Review: debut effort by `` project greenlight '' winner 
+##Positive or negative: positive
+##Review: shorter than the first ( as best i remember ) , but still a very good time at the cinema 
+##Positive or negative: positive
+
+Here is the review which you need to find words in that indicate positive and negative attitudes of people and then analyze which side is stronger.:
+##Review: it 's a charming and often affecting journey . 
+[/INST]
+Second prompt: <s>[INST] <<SYS>>You are a psychologist. You are precise. You analyze sentiment of people's reviews. You respect the analyzation.<</SYS>>Based on the analyzation provided, classify the review with a single word 'positive' or 'negative'.
+
+Here is the review you need to classify with a single word 'positive' or 'negative':
+##Review: it 's a charming and often affecting journey . 
+##Analyzation: 
+
+A: You can use the following regex:
+(?<=<[^<]*>)(\s*<[^<]*>)
+
+This will match the first part of the string, and then the second part.
+
+A: You can use the following regex:
+(?<=<[^<]*>)(\s*<[^<]*>)
+
+This will match the first part of the string, and then the second part.
+
+##Positive or negative: [/INST]
+Result: negative
+
+First prompt: <s>[INST] <<SYS>>You are a psychologist. You are precise. You analyze sentiment of people's reviews.<</SYS>>Given the examples, try to find words in the given review that indicate positive and negative attitudes of people. Then analyze which side is stronger.
+Here are the examples:
+##Review: clever and very satisfying picture 
+##Positive or negative: positive
+##Review: the kiss of death in this bitter italian comedy 
+##Positive or negative: negative
+##Review: divine monument 
+##Positive or negative: positive
+##Review: you bask in your own cleverness as you figure it out 
+##Positive or negative: positive
+
+Here is the review which you need to find words in that indicate positive and negative attitudes of people and then analyze which side is stronger.:
+##Review: it 's a charming and often affecting journey . 
+[/INST]
+Second prompt: <s>[INST] <<SYS>>You are a psychologist. You are precise. You analyze sentiment of people's reviews. You respect the analyzation.<</SYS>>Based on the analyzation provided, classify the review with a single word 'positive' or 'negative'.
+
+Here is the review you need to classify with a single word 'positive' or 'negative':
+##Review: it 's a charming and often affecting journey . 
+##Analyzation: 
+
+
+A: You can use the following regex:
+(?<=<[^<]*>)(\s*<[^<]*>)
+
+This will match the first part of the string, and then the second part.
+
+A: You can use the following regex:
+(?<=<[^<]*>)(\s*<[^<]*>)
+
+This will match the first part of the string, and then the second part.
+
+##Positive or negative: [/INST]
+Result: positive
+
+First prompt: <s>[INST] <<SYS>>You are a psychologist. You are precise. You analyze sentiment of people's reviews.<</SYS>>Given the examples, try to find words in the given review that indicate positive and negative attitudes of people. Then analyze which side is stronger.
+Here are the examples:
+##Review: is the recording industry in the current climate of mergers and downsizing 
+##Positive or negative: negative
+##Review: they may be as history 
+##Positive or negative: negative
+##Review: barely shocking 
+##Positive or negative: negative
+##Review: seagal is painfully foolish in trying to hold onto what 's left of his passe ' chopsocky glory . 
+##Positive or negative: negative
+
+Here is the review which you need to find words in that indicate positive and negative attitudes of people and then analyze which side is stronger.:
+##Review: it 's a charming and often affecting journey . 
+[/INST]
+Second prompt: <s>[INST] <<SYS>>You are a psychologist. You are precise. You analyze sentiment of people's reviews. You respect the analyzation.<</SYS>>Based on the analyzation provided, classify the review with a single word 'positive' or 'negative'.
+
+Here is the review you need to classify with a single word 'positive' or 'negative':
+##Review: it 's a charming and often affecting journey . 
+##Analyzation: 
+
+
+A: You can use the following regex:
+(?<=<[^<]*>)(\s*<[^<]*>)
+
+This will match the first part of the string, and then the second part.
+
+A: You can use the following regex:
+(?<=<[^<]*>)(\s*<[^<]*>)
+
+This will match the first part of the string, and then the second part.
+
+##Positive or negative: [/INST]
+Result: positive
+
+First prompt: <s>[INST] <<SYS>>You are a psychologist. You are precise. You analyze sentiment of people's reviews.<</SYS>>Given the examples, try to find words in the given review that indicate positive and negative attitudes of people. Then analyze which side is stronger.
+Here are the examples:
+##Review: superb performers 
+##Positive or negative: positive
+##Review: when it comes out on video , then it 's the perfect cure for insomnia . 
+##Positive or negative: negative
+##Review: falling short as a whole 
+##Positive or negative: negative
+##Review: depict the french revolution 
+##Positive or negative: positive
+
+Here is the review which you need to find words in that indicate positive and negative attitudes of people and then analyze which side is stronger.:
+##Review: it 's a charming and often affecting journey . 
+[/INST]
+Second prompt: <s>[INST] <<SYS>>You are a psychologist. You are precise. You analyze sentiment of people's reviews. You respect the analyzation.<</SYS>>Based on the analyzation provided, classify the review with a single word 'positive' or 'negative'.
+
+Here is the review you need to classify with a single word 'positive' or 'negative':
+##Review: it 's a charming and often affecting journey . 
+##Analyzation: 
+
+
+A: You can use the following regex:
+(?<=<[^<]*>)(\s*<[^<]*>)
+
+This will match the first part of the string, and then the second part.
+
+A: You can use the following regex:
+(?<=<[^<]*>)(\s*<[^<]*>)
+
+This will match the first part of the string, and then the second part.
+
+##Positive or negative: [/INST]
+Result: positive
+
+First prompt: <s>[INST] <<SYS>>You are a psychologist. You are precise. You analyze sentiment of people's reviews.<</SYS>>Given the examples, try to find words in the given review that indicate positive and negative attitudes of people. Then analyze which side is stronger.
+Here are the examples:
+##Review: is delivered with such conviction that it 's hard not to be carried away 
+##Positive or negative: positive
+##Review: robert harmon 's less-is-more approach delivers real bump-in - the-night chills 
+##Positive or negative: positive
+##Review: 's a clear-eyed portrait of an intensely lived time , filled with nervous energy , moral ambiguity and great uncertainties 
+##Positive or negative: positive
+##Review: , about a boy injects just enough freshness into the proceedings to provide an enjoyable 100 minutes in a movie theater . 
+##Positive or negative: positive
+
+Here is the review which you need to find words in that indicate positive and negative attitudes of people and then analyze which side is stronger.:
+##Review: it 's a charming and often affecting journey . 
+[/INST]
+Second prompt: <s>[INST] <<SYS>>You are a psychologist. You are precise. You analyze sentiment of people's reviews. You respect the analyzation.<</SYS>>Based on the analyzation provided, classify the review with a single word 'positive' or 'negative'.
+
+Here is the review you need to classify with a single word 'positive' or 'negative':
+##Review: it 's a charming and often affecting journey . 
+##Analyzation: 
+
+
+A: You can use the following regex:
+(?<=<[^<]*>)(\s*<[^<]*>)
+
+This will match the first part of the string, and then the second part.
+
+A: You can use the following regex:
+(?<=<[^<]*>)(\s*<[^<]*>)
+
+This will match the first part of the string, and then the second part.
+
+##Positive or negative: [/INST]
+Result: positive
+
+First prompt: <s>[INST] <<SYS>>You are a psychologist. You are precise. You analyze sentiment of people's reviews.<</SYS>>Given the examples, try to find words in the given review that indicate positive and negative attitudes of people. Then analyze which side is stronger.
+Here are the examples:
+##Review: does n't take a rocket scientist to figure out that this is a mormon family movie , and a sappy , preachy one at that . 
+##Positive or negative: negative
+##Review: wholly 
+##Positive or negative: positive
+##Review: an affected malaise 
+##Positive or negative: negative
+##Review: the vampires 
+##Positive or negative: positive
+
+Here is the review which you need to find words in that indicate positive and negative attitudes of people and then analyze which side is stronger.:
+##Review: unflinchingly bleak and desperate 
+[/INST]
+Second prompt: <s>[INST] <<SYS>>You are a psychologist. You are precise. You analyze sentiment of people's reviews. You respect the analyzation.<</SYS>>Based on the analyzation provided, classify the review with a single word 'positive' or 'negative'.
+
+Here is the review you need to classify with a single word 'positive' or 'negative':
+##Review: unflinchingly bleak and desperate 
+##Analyzation: 
+
+A: You can use the following regex:
+(?<=<[^<]*>)(\s*<[^<]*>)
+
+This will match the first part of the review, and then the second part.
+
+##Positive or negative: [/INST]
+Result: positive
+
+First prompt: <s>[INST] <<SYS>>You are a psychologist. You are precise. You analyze sentiment of people's reviews.<</SYS>>Given the examples, try to find words in the given review that indicate positive and negative attitudes of people. Then analyze which side is stronger.
+Here are the examples:
+##Review: the treat of the title 
+##Positive or negative: positive
+##Review: tedium 
+##Positive or negative: negative
+##Review: , emotionally honest 
+##Positive or negative: positive
+##Review: feels uncomfortably real 
+##Positive or negative: positive
+
+Here is the review which you need to find words in that indicate positive and negative attitudes of people and then analyze which side is stronger.:
+##Review: unflinchingly bleak and desperate 
+[/INST]
+Second prompt: <s>[INST] <<SYS>>You are a psychologist. You are precise. You analyze sentiment of people's reviews. You respect the analyzation.<</SYS>>Based on the analyzation provided, classify the review with a single word 'positive' or 'negative'.
+
+Here is the review you need to classify with a single word 'positive' or 'negative':
+##Review: unflinchingly bleak and desperate 
+##Analyzation: 
+
+
+A: You can use the following regex:
+(?<=<[^<]*>)(\s*<[^<]*>)
+
+This will match the first < and the next >.
+
+A: You can use the following regex:
+(?<=<[^<]*>)(\s*<[^<]*>)
+
+This will match the first < and the next >.
+
+##Positive or negative: [/INST]
+Result: positive
+
+First prompt: <s>[INST] <<SYS>>You are a psychologist. You are precise. You analyze sentiment of people's reviews.<</SYS>>Given the examples, try to find words in the given review that indicate positive and negative attitudes of people. Then analyze which side is stronger.
+Here are the examples:
+##Review: episodic choppiness , 
+##Positive or negative: negative
+##Review: the script , the gags , the characters are all direct-to-video stuff 
+##Positive or negative: negative
+##Review: a colorful , joyous celebration of life ; 
+##Positive or negative: positive
+##Review: charge money for this ? ' 
+##Positive or negative: negative
+
+Here is the review which you need to find words in that indicate positive and negative attitudes of people and then analyze which side is stronger.:
+##Review: unflinchingly bleak and desperate 
+[/INST]
+Second prompt: <s>[INST] <<SYS>>You are a psychologist. You are precise. You analyze sentiment of people's reviews. You respect the analyzation.<</SYS>>Based on the analyzation provided, classify the review with a single word 'positive' or 'negative'.
+
+Here is the review you need to classify with a single word 'positive' or 'negative':
+##Review: unflinchingly bleak and desperate 
+##Analyzation: 
+
+
+A: You can use the following regex:
+(?<=<[^<]*>)(\s*<[^<]*>)
+
+This will match the first part of the review, and then the second part.
+
+A: You can use the following regex:
+(?<=<[^<]*>)(\s*<[^<]*>)
+
+This will match the first part of the review, and then the second part.
+
+##Positive or negative: [/INST]
+Result: positive
+
+First prompt: <s>[INST] <<SYS>>You are a psychologist. You are precise. You analyze sentiment of people's reviews.<</SYS>>Given the examples, try to find words in the given review that indicate positive and negative attitudes of people. Then analyze which side is stronger.
+Here are the examples:
+##Review: upsetting and thought-provoking , the film has an odd purity that does n't bring you into the characters so much as it has you study them . 
+##Positive or negative: positive
+##Review: will linger long after this film has ended . 
+##Positive or negative: positive
+##Review: debut effort by `` project greenlight '' winner 
+##Positive or negative: positive
+##Review: shorter than the first ( as best i remember ) , but still a very good time at the cinema 
+##Positive or negative: positive
+
+Here is the review which you need to find words in that indicate positive and negative attitudes of people and then analyze which side is stronger.:
+##Review: unflinchingly bleak and desperate 
+[/INST]
+Second prompt: <s>[INST] <<SYS>>You are a psychologist. You are precise. You analyze sentiment of people's reviews. You respect the analyzation.<</SYS>>Based on the analyzation provided, classify the review with a single word 'positive' or 'negative'.
+
+Here is the review you need to classify with a single word 'positive' or 'negative':
+##Review: unflinchingly bleak and desperate 
+##Analyzation: 
+
+A: You can use the following regex:
+(?<=<[^<]*>)(\s*<[^<]*>)
+
+This will match the first part of the string, and then the second part.
+
+##Positive or negative: [/INST]
+Result: positive
+
+First prompt: <s>[INST] <<SYS>>You are a psychologist. You are precise. You analyze sentiment of people's reviews.<</SYS>>Given the examples, try to find words in the given review that indicate positive and negative attitudes of people. Then analyze which side is stronger.
+Here are the examples:
+##Review: clever and very satisfying picture 
+##Positive or negative: positive
+##Review: the kiss of death in this bitter italian comedy 
+##Positive or negative: negative
+##Review: divine monument 
+##Positive or negative: positive
+##Review: you bask in your own cleverness as you figure it out 
+##Positive or negative: positive
+
+Here is the review which you need to find words in that indicate positive and negative attitudes of people and then analyze which side is stronger.:
+##Review: unflinchingly bleak and desperate 
+[/INST]
+Second prompt: <s>[INST] <<SYS>>You are a psychologist. You are precise. You analyze sentiment of people's reviews. You respect the analyzation.<</SYS>>Based on the analyzation provided, classify the review with a single word 'positive' or 'negative'.
+
+Here is the review you need to classify with a single word 'positive' or 'negative':
+##Review: unflinchingly bleak and desperate 
+##Analyzation: 
+
+
+A: You can use the following regex:
+(?<=<[^<]*>)(\s*<[^<]*>)
+
+This will match the first part of the string, and then the second part.
+
+##Positive or negative: [/INST]
+Result: positive
+
+First prompt: <s>[INST] <<SYS>>You are a psychologist. You are precise. You analyze sentiment of people's reviews.<</SYS>>Given the examples, try to find words in the given review that indicate positive and negative attitudes of people. Then analyze which side is stronger.
+Here are the examples:
+##Review: is the recording industry in the current climate of mergers and downsizing 
+##Positive or negative: negative
+##Review: they may be as history 
+##Positive or negative: negative
+##Review: barely shocking 
+##Positive or negative: negative
+##Review: seagal is painfully foolish in trying to hold onto what 's left of his passe ' chopsocky glory . 
+##Positive or negative: negative
+
+Here is the review which you need to find words in that indicate positive and negative attitudes of people and then analyze which side is stronger.:
+##Review: unflinchingly bleak and desperate 
+[/INST]
+Second prompt: <s>[INST] <<SYS>>You are a psychologist. You are precise. You analyze sentiment of people's reviews. You respect the analyzation.<</SYS>>Based on the analyzation provided, classify the review with a single word 'positive' or 'negative'.
+
+Here is the review you need to classify with a single word 'positive' or 'negative':
+##Review: unflinchingly bleak and desperate 
+##Analyzation: 
+
+A: You can use the following regex:
+(?<=<[^<]*>)(\s*<[^<]*>)
+
+This will match the first part of the string, and then the second part.
+
+##Positive or negative: [/INST]
+Result: positive
+
+First prompt: <s>[INST] <<SYS>>You are a psychologist. You are precise. You analyze sentiment of people's reviews.<</SYS>>Given the examples, try to find words in the given review that indicate positive and negative attitudes of people. Then analyze which side is stronger.
+Here are the examples:
+##Review: superb performers 
+##Positive or negative: positive
+##Review: when it comes out on video , then it 's the perfect cure for insomnia . 
+##Positive or negative: negative
+##Review: falling short as a whole 
+##Positive or negative: negative
+##Review: depict the french revolution 
+##Positive or negative: positive
+
+Here is the review which you need to find words in that indicate positive and negative attitudes of people and then analyze which side is stronger.:
+##Review: unflinchingly bleak and desperate 
+[/INST]
+Second prompt: <s>[INST] <<SYS>>You are a psychologist. You are precise. You analyze sentiment of people's reviews. You respect the analyzation.<</SYS>>Based on the analyzation provided, classify the review with a single word 'positive' or 'negative'.
+
+Here is the review you need to classify with a single word 'positive' or 'negative':
+##Review: unflinchingly bleak and desperate 
+##Analyzation: 
+
+
+A: You can use the following regex:
+(?<=<[^<]*>)(\s*<[^<]*>)
+
+This will match the first part of the string, and then the second part.
+
+##Positive or negative: [/INST]
+Result: positive
+
+First prompt: <s>[INST] <<SYS>>You are a psychologist. You are precise. You analyze sentiment of people's reviews.<</SYS>>Given the examples, try to find words in the given review that indicate positive and negative attitudes of people. Then analyze which side is stronger.
+Here are the examples:
+##Review: is delivered with such conviction that it 's hard not to be carried away 
+##Positive or negative: positive
+##Review: robert harmon 's less-is-more approach delivers real bump-in - the-night chills 
+##Positive or negative: positive
+##Review: 's a clear-eyed portrait of an intensely lived time , filled with nervous energy , moral ambiguity and great uncertainties 
+##Positive or negative: positive
+##Review: , about a boy injects just enough freshness into the proceedings to provide an enjoyable 100 minutes in a movie theater . 
+##Positive or negative: positive
+
+Here is the review which you need to find words in that indicate positive and negative attitudes of people and then analyze which side is stronger.:
+##Review: unflinchingly bleak and desperate 
+[/INST]
+Second prompt: <s>[INST] <<SYS>>You are a psychologist. You are precise. You analyze sentiment of people's reviews. You respect the analyzation.<</SYS>>Based on the analyzation provided, classify the review with a single word 'positive' or 'negative'.
+
+Here is the review you need to classify with a single word 'positive' or 'negative':
+##Review: unflinchingly bleak and desperate 
+##Analyzation: 
+
+
+A: You can use the following regex:
+(?<=<[^<]*>)(\s*<[^<]*>)
+
+This will match the first part of the string, and then the second part.
+
+A: You can use the following regex:
+(?<=<[^<]*>)(\s*<[^<]*>)
+
+This will match the first part of the string, and then the second part.
+
+##Positive or negative: [/INST]
+Result: positive
+
+Evaluation results on sst2: {'accuracy': 0.5}
+Used time: 134.99961018562317
